@@ -1,13 +1,37 @@
 /* ページ全体 */
 
 body {
-    background-color: #0f1923;
+  background-color: #0f1923;
 }
-
 
 /** ヘッダー */
 
 .header__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__logo {
+}
+
+.header__nav {
+}
+
+.nav-item1 {
+  align-self: flex-end;
+}
+.nav-item2 {
+  align-self: flex-end;
+}
+.nav-item3 {
+  align-self: flex-end;
+}
+
+.about {
+}
+
+.about__title {
+  color: chartreuse;
 }
 
 .header__nav {
@@ -25,6 +49,7 @@ body {
 }
 
 .member__image img {
+  display: flex;
 }
 
 .member__name {
