@@ -7,24 +7,21 @@ body {
 /** ヘッダー */
 
 .header__container {
+  background-color: #0f1923;
   display: flex;
-  justify-content: flex-end;
-}
-
-.header__logo {
+  justify-content: space-between;
 }
 
 .header__nav {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
-.nav-item1 {
-  align-self: flex-end;
-}
-.nav-item2 {
-  align-self: flex-end;
-}
-.nav-item3 {
-  align-self: flex-end;
+.nav-item a {
+  text-decoration: none;
+  color: darkgreen;
 }
 
 .about {
@@ -34,27 +31,49 @@ body {
   color: chartreuse;
 }
 
-.header__nav {
-  width: 400px;
-}
-
-.nav-item {
+.about__description {
+  color: white;
+  width: 50%;
 }
 
 /* メンバー */
-.member-section .members {
+.member-section {
+  background-color: white;
+}
+.section-title {
+  color: chartreuse;
+  align-self: start;
 }
 
 .member {
 }
 
-.member__image img {
+.members {
   display: flex;
 }
 
+.member__image img {
+  width: 50%;
+}
+
+.member__image {
+  background-color: #0f1923;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
 .member__name {
+  background-color: #0f1923;
+  color: white;
 }
 
 /* ゲーム */
+.game-section {
+  background-color: #0f1923;
+}
 
 /* お問い合わせ */
+.contact-section {
+  background-color: hotpink;
+}
