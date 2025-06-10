@@ -42,29 +42,116 @@ body {
 }
 .section-title {
   color: chartreuse;
-  align-self: start;
-}
-
-.member {
+  margin-left: 1.5%;
 }
 
 .members {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
+.member1 {
+  background-color: #0f1923;
+  width: 15%;
+  padding: 1.5% 1% 0 1%;
+  margin: 0 1.5% 2% 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member2 {
+  background-color: #0f1923;
+  width: 15%;
+  padding: 1.5% 1% 0 1%;
+  margin: 0 1.5% 2% 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member3 {
+  background-color: #0f1923;
+  width: 15%;
+  padding: 1.5% 1% 0 1%;
+  margin: 0 1.5% 2% 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member4 {
+  background-color: #0f1923;
+  width: 15%;
+  padding: 1.5% 1% 0 1%;
+  margin: 0 1.5% 2% 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member5 {
+  background-color: #0f1923;
+  width: 15%;
+  padding: 1.5% 1% 0 1%;
+  margin: 0 1.5% 2% 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member6 {
+  background-color: #0f1923;
+  width: 15%;
+  padding: 1.5% 1% 0 1%;
+  margin: 0 1.5% 2% 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member7 {
+  background-color: #0f1923;
+  width: 15%;
+  padding: 1.5% 1% 0 1%;
+  margin: 0 1.5% 2% 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member8 {
+  background-color: #0f1923;
+  width: 15%;
+  padding: 1.5% 1% 0 1%;
+  margin: 0 1.5% 2% 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member9 {
+  background-color: #0f1923;
+  width: 15%;
+  padding: 1.5% 1% 0 1%;
+  margin: 0 1.5% 2% 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.member10 {
+  background-color: #0f1923;
+  width: 15%;
+  padding: 1.5% 1% 0 1%;
+  margin: 0 1.5% 2% 1.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .member__image img {
-  width: 50%;
+  width: 90%;
 }
 
 .member__image {
-  background-color: #0f1923;
   display: flex;
   justify-content: center;
-  padding: 10px;
 }
 
 .member__name {
-  background-color: #0f1923;
   color: white;
 }
 
