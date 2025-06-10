@@ -4,6 +4,15 @@ body {
   background-color: #0f1923;
 }
 
+h2 {
+  margin: 0;
+}
+
+.section-title {
+  color: chartreuse;
+  margin-left: 1.5%;
+}
+
 /** ヘッダー */
 
 .header__container {
@@ -39,10 +48,6 @@ body {
 /* メンバー */
 .member-section {
   background-color: white;
-}
-.section-title {
-  color: chartreuse;
-  margin-left: 1.5%;
 }
 
 .members {
@@ -158,6 +163,52 @@ body {
 /* ゲーム */
 .game-section {
   background-color: #0f1923;
+}
+
+.game__image img {
+  width: 100%;
+}
+
+.games {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.game1 {
+  background-color: antiquewhite;
+  width: 18%;
+  padding: 1.5% 1% 0% 1%;
+  margin: 0 2.5% 2% 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game2 {
+  background-color: antiquewhite;
+  width: 18%;
+  padding: 1.5% 1% 0% 1%;
+  margin: 0 2.5% 2% 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game3 {
+  background-color: antiquewhite;
+  width: 18%;
+  padding: 1.5% 1% 0% 1%;
+  margin: 0 2.5% 2% 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game4 {
+  background-color: antiquewhite;
+  width: 18%;
+  padding: 1.5% 1% 0% 1%;
+  margin: 0 2.5% 2% 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* お問い合わせ */
