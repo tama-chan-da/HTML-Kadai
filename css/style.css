@@ -57,7 +57,7 @@ h2 {
   justify-content: space-around;
 }
 
-.member1 {
+.member {
   background-color: #0f1923;
   width: 15%;
   padding: 1.5% 1% 0 1%;
@@ -66,87 +66,7 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
-.member2 {
-  background-color: #0f1923;
-  width: 15%;
-  padding: 1.5% 1% 0 1%;
-  margin: 0 1.5% 2% 1.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.member3 {
-  background-color: #0f1923;
-  width: 15%;
-  padding: 1.5% 1% 0 1%;
-  margin: 0 1.5% 2% 1.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.member4 {
-  background-color: #0f1923;
-  width: 15%;
-  padding: 1.5% 1% 0 1%;
-  margin: 0 1.5% 2% 1.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.member5 {
-  background-color: #0f1923;
-  width: 15%;
-  padding: 1.5% 1% 0 1%;
-  margin: 0 1.5% 2% 1.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.member6 {
-  background-color: #0f1923;
-  width: 15%;
-  padding: 1.5% 1% 0 1%;
-  margin: 0 1.5% 2% 1.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.member7 {
-  background-color: #0f1923;
-  width: 15%;
-  padding: 1.5% 1% 0 1%;
-  margin: 0 1.5% 2% 1.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.member8 {
-  background-color: #0f1923;
-  width: 15%;
-  padding: 1.5% 1% 0 1%;
-  margin: 0 1.5% 2% 1.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.member9 {
-  background-color: #0f1923;
-  width: 15%;
-  padding: 1.5% 1% 0 1%;
-  margin: 0 1.5% 2% 1.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.member10 {
-  background-color: #0f1923;
-  width: 15%;
-  padding: 1.5% 1% 0 1%;
-  margin: 0 1.5% 2% 1.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .member__image img {
   width: 90%;
 }
@@ -174,34 +94,7 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-.game1 {
-  background-color: antiquewhite;
-  width: 18%;
-  padding: 1.5% 1% 0% 1%;
-  margin: 0 2.5% 2% 2.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.game2 {
-  background-color: antiquewhite;
-  width: 18%;
-  padding: 1.5% 1% 0% 1%;
-  margin: 0 2.5% 2% 2.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.game3 {
-  background-color: antiquewhite;
-  width: 18%;
-  padding: 1.5% 1% 0% 1%;
-  margin: 0 2.5% 2% 2.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.game4 {
+.game {
   background-color: antiquewhite;
   width: 18%;
   padding: 1.5% 1% 0% 1%;
@@ -214,4 +107,28 @@ h2 {
 /* お問い合わせ */
 .contact-section {
   background-color: hotpink;
+}
+.form_name {
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+.form_gender {
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+.form_e-mail {
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+.form_others {
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+.form_button {
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+textarea {
+  width: 80%;
+  height: 100px;
 }
