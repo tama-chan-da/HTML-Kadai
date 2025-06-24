@@ -9,16 +9,23 @@ h2 {
 }
 
 .section-title {
-  color: chartreuse;
+  color: mediumaquamarine;
   margin-left: 1.5%;
 }
 
 /** ヘッダー */
 
 .header__container {
+  width: 100%;
   background-color: #0f1923;
   display: flex;
   justify-content: space-between;
+}
+.header__logo {
+  animation: anim 10s;
+  animation-iteration-count: infinite;
+}
+.header__logo img {
 }
 
 .header__nav {
@@ -37,12 +44,11 @@ h2 {
 }
 
 .about__title {
-  color: chartreuse;
+  color: mediumturquoise;
 }
 
 .about__description {
   color: white;
-  width: 50%;
 }
 
 /* メンバー */
@@ -59,9 +65,6 @@ h2 {
 
 .member {
   background-color: #0f1923;
-  width: 15%;
-  padding: 1.5% 1% 0 1%;
-  margin: 0 1.5% 2% 1.5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,6 +96,7 @@ h2 {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .game {
   background-color: antiquewhite;
@@ -106,7 +110,7 @@ h2 {
 
 /* お問い合わせ */
 .contact-section {
-  background-color: hotpink;
+  background-color: lightpink;
 }
 .form_name {
   margin-left: 20px;
@@ -131,4 +135,46 @@ h2 {
 textarea {
   width: 80%;
   height: 100px;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(0vw);
+  }
+
+  100% {
+    transform: translateX(70vw);
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+  .about__description {
+    width: 50%;
+  }
+  .member {
+    width: 15%;
+    padding: 1.5% 1% 0 1%;
+    margin: 0 1.5% 2% 1.5%;
+  }
+  .game {
+    width: 18%;
+    padding: 1.5% 1% 0% 1%;
+    margin: 0 2.5% 2% 2.5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about__description {
+    width: 100%;
+  }
+  .member {
+    width: 35%;
+    padding: 3% 2.5% 0 2.5%;
+    margin: 0 5% 4% 5%;
+  }
+  .game {
+    width: 35%;
+    padding: 3% 2.5% 0% 2.5%;
+    margin: 0 5% 4% 5%;
+  }
 }
