@@ -131,6 +131,11 @@ h2 {
 .form_button {
   margin-left: 20px;
   padding-bottom: 20px;
+  transition: background-color 0.5s;
+}
+button:hover {
+  background-color: goldenrod;
+  transition: background-color 0.5s;
 }
 textarea {
   width: 80%;
